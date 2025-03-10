@@ -32,7 +32,7 @@ Before proceeding, ensure you have the following installed and configured:
 - Create a configuration file at `/etc/docker/daemon.json` with the following content:
   ```json
   {
-    "insecure-registries": ["46.101.236.225:8083"]
+    "insecure-registries": ["localhost:8083"]
   }
   ```
 - Restart the Docker service:
